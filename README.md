@@ -2,8 +2,7 @@
 
 ```mermaid
 graph TD;
-    A[Start] --> B{Is it sunny?};
-    B -- Yes --> C[Go to beach];
-    B -- No --> D[Stay inside];
-    C --> E[Have fun!];
-    D --> E;
+    A[PokeAPI] --> C[dowsing-machine];
+    B[Smogon] --> C[dowsing-machine];
+    
+   
