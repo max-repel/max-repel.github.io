@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD;
-    A[PokeAPI] --> C[dowsing-machine];
-    B[Smogon] --> C[dowsing-machine];
+    A[PokeAPI] -- Python --> C[dowsing-machine];
+    B[Smogon] -- Python --> C[dowsing-machine];
     
    
